@@ -25,13 +25,13 @@
       margin-left: 250px;
     }
 
-    section { width: 1000px; margin: auto; padding-bottom: 100px; }
+    section { width: 1000px; margin: auto; padding-bottom: 100px}
     h2 { font-size: 50px; line-height: 1.5}
     p  { font-size: 25px; line-height: 1.5}
 
     input[type="email"],
-    input[type="number"] { font-size: 16px; padding: 10px; width: 250px; }
-    button { padding: 10px 20px; font-size: 16px; cursor: pointer; margin-left: 10px; background-color: blue; border: 2px solid white; color: white; font-family:'NeoDunggeunmo'}
+    input[type="number"] { font-size: 25px; padding: 10px; width: 250px; }
+    button { padding: 10px 20px; font-size: 25px; cursor: pointer; margin-left: 10px; background-color: blue; border: 2px solid white; color: white; font-family:'NeoDunggeunmo'}
 
     /* 사이드 네비게이션 */
     .side-nav {
@@ -69,13 +69,13 @@
     <a href="#campaign">캠페인</a>
     <a href="#values">핵심가치</a>
     <a href="#project">프로젝트</a>
-    <a href="#staff">임원진</a>
+    <a href="#staff">대표의 말</a>
     <a href="#newsletter">뉴스레터</a>
     <a href="#s1">후원하기</a>
   </nav>
 
   <!-- 본문 -->
-  <section id="intro" style="padding-top: 100px">
+  <section id="intro" style="padding-top: 100px; border-bottom: 2px solid white">
     <h2>따듯한파인애플단</h2>
     <p style="padding-bottom: 100px">따듯한파인애플단은 파인애플과 음식의 만남에 대한 인식을 개선하고, 이러한 메뉴들이 주류로 자리잡도록 하기 위해 평화적이고 창의적인 방식으로 활동하는 캠페인 단체 입니다.</p>
     <h2 style="text-align:center">따끈하게 녹아드는 파인애플의 풍미, <br>새로운 경험</h2>
@@ -87,32 +87,36 @@
   <!-- 캠페인 행동 버튼 -->
   <section><button onclick="toggleContent('content1')">사먹기</button><div id="content1" style="display:none;">따듯한파인애플이 들어간 메뉴가 있다면 사먹어서 따듯한파인애플단이 건재함을 알리기.</div></section>
   <section><button onclick="toggleContent('content2')">본사에 글 쓰기</button><div id="content2" style="display:none;">단종 예정인 메뉴가 있다면 본사 게시판에 단종하지 말아달라고 읍소하기.</div></section>
-  <section><button onclick="toggleContent('content3')">급식 신청하기</button><div id="content3" style="display:none;">급식, 학식, 사내식당 등 메뉴에 대한 의견을 낼 수 있는 곳에 따듯한파인애플 식단을 요청하기.</div></section>
+  <section style="border-bottom: 2px solid white"><button onclick="toggleContent('content3')">급식 신청하기</button><div id="content3" style="display:none;">급식, 학식, 사내식당 등 메뉴에 대한 의견을 낼 수 있는 곳에 따듯한파인애플 식단을 요청하기.</div></section>
 
   <!-- 성과 -->
-  <div class="flex">
-    <section><h2>캠페인 성과</h2></section>
-    <section><h2>2025</h2><h2>2030</h2><h2>2035</h2></section>
-    <section>
-      <p>“버거킹"<br>구운파인애플<br>토핑 선택지 추가</p>
-      <p>피자나라X하와이<br>국교 체결</p>
-      <p>포브스 선정<br>“호불호 심한 음식”<br>에서 하와이안 피자<br>퇴출</p>
-    </section>
-  </div>
+  <section> 
+    <div class="flex" style="border-bottom: 2px solid white">
+      <section><h2>캠페인 성과</h2></section>
+      <section><h2>2025</h2><h2>2030</h2><h2>2035</h2></section>
+      <section>
+        <p>“버거킹"<br>구운파인애플<br>토핑 선택지 추가</p>
+        <p>피자나라X하와이<br>국교 체결</p>
+        <p>포브스 선정<br>“호불호 심한 음식”<br>에서 하와이안 피자<br>퇴출</p>
+      </section>
+    </div>
+  </section>
 
   <!-- 핵심 가치 -->
-  <section id="values">
+  <section id="values" style="border-bottom: 2px solid white">
     <h2>핵심가치</h2>
     <div class="flex">
-      <section><h2>인식개선</h2><p>우리는 따듯한파인애플의 인식을 개선하기 위해 따듯한파인애플의 맛있음을 널리 알립니다.</p></section>
-      <section><h2>독립성</h2><p>따듯한파인애플단은 하와이나 도미노피자 등 정부나 기업의 재정 지원을 받지 않습니다.</p></section>
-      <section><h2>글로벌</h2><p>지구촌 곳곳에 따듯한파인애플을 알리기 위해 W.P.A가 가진 자원을 극대화합니다.</p></section>
-      <section><h2>비폭력</h2><p>따듯한파인애플단은 싫다는 사람의 입에 억지로 따듯한파인애플을 집어넣지 않습니다.</p></section>
+      <section style="border: 2px solid white"><h2>인식개선</h2><p>우리는 따듯한파인애플의 인식을 개선하기 위해 따듯한파인애플의 맛있음을 널리 알립니다.</p></section>
+      <section style="border: 2px solid white"><h2>독립성</h2><p>따듯한파인애플단은 하와이나 도미노피자 등 정부나 기업의 재정 지원을 받지 않습니다.</p></section>
+    </div>
+    <div class="flex">
+      <section style="border: 2px solid white"><h2>글로벌</h2><p>지구촌 곳곳에 따듯한파인애플을 알리기 위해 W.P.A가 가진 자원을 극대화합니다.</p></section>
+      <section style="border: 2px solid white"><h2>비폭력</h2><p>따듯한파인애플단은 싫다는 사람의 입에 억지로 따듯한파인애플을 집어넣지 않습니다.</p></section>
     </div>
   </section>
 
   <!-- 프로젝트 -->
-  <section id="project">
+  <section id="project" style="border-bottom: 2px solid white">
     <h2>주요 프로젝트</h2>
     <p>따듯한파인애플단은 "다양한 따듯한파인애플 음식들이 주류로 자리잡는 것"이라는 명확한 목표를 가지고 프로젝트를 진행합니다.</p>
     <div class="flex">
@@ -123,10 +127,10 @@
   </section>
 
   <!-- 임원진 -->
-  <section id="staff"><h2 style="padding-bottom: 100px">대표의 말</h2><h2 style="text-align: center">"피클이 없이 피자를 먹다가 입 안을 리프레쉬 해준 구운파인애플은, 피클을 싫어하던 저에겐 운명같이 다가왔습니다."</h2></section>
+  <section id="staff" style="border-bottom: 2px solid white"><h2 style="padding-bottom: 100px">대표의 말</h2><h2 style="text-align: center">"피클이 없이 피자를 먹다가 입 안을 리프레쉬 해준 구운파인애플은, 피클을 싫어하던 저에겐 운명같이 다가왔습니다."</h2></section>
 
   <!-- 뉴스레터 -->
-  <section id="newsletter" style="padding-bottom:200px;">
+  <section id="newsletter" style="padding-bottom:200px; border-bottom: 2px solid white">
     <h2>뉴스레터 구독</h2>
     <p style="padding-bottom:100px;">더 많은 따듯한파인애플단의 소식을 받아보고 싶다면?</p>
     <div style="text-align:center;">
